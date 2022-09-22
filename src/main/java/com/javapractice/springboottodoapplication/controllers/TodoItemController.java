@@ -45,5 +45,4 @@ public class TodoItemController{
             todoItemRepository.save(todoItem);
             return "redirect:/";
         }
-        
 }
